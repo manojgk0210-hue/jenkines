@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tringger {
+    triggers {
         pollSCM '*/5 * * * *'
     }
     stages {
